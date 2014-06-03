@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: Ausarbeitung.aux
+The style file: alpha.bst
+Database file #1: literatur.bib
+Warning--I didn't find a database entry for "mainpaper"
+Warning--to sort, need author or key in xen2014wiki
+Warning--to sort, need author or key in run2014wiki
+You've used 10 entries,
+            2543 wiz_defined-function locations,
+            616 strings with 6310 characters,
+and the built_in function-call counts, 4382 in all, are:
+= -- 434
+> -- 233
+< -- 6
++ -- 84
+- -- 84
+* -- 308
+:= -- 696
+add.period$ -- 36
+call.type$ -- 10
+change.case$ -- 73
+chr.to.int$ -- 10
+cite$ -- 14
+duplicate$ -- 164
+empty$ -- 318
+format.name$ -- 91
+if$ -- 922
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 6
+newline$ -- 56
+num.names$ -- 24
+pop$ -- 109
+preamble$ -- 1
+purify$ -- 83
+quote$ -- 0
+skip$ -- 124
+stack$ -- 0
+substring$ -- 186
+swap$ -- 40
+text.length$ -- 6
+text.prefix$ -- 2
+top$ -- 0
+type$ -- 80
+warning$ -- 2
+while$ -- 34
+width$ -- 12
+write$ -- 133
+(There were 3 warnings)

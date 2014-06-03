@@ -1,0 +1,12 @@
+\BOOKMARK [0][-]{chapter.1}{Analysis of live virtual machine migration algorithms used in KVM and Xen}{}
+\BOOKMARK [1][-]{section.1.1}{Introduction}{chapter.1}
+\BOOKMARK [1][-]{section.1.2}{Background}{chapter.1}
+\BOOKMARK [2][-]{subsection.1.2.1}{Operating System Live Migration}{section.1.2}
+\BOOKMARK [2][-]{subsection.1.2.2}{Pre-copy and Post-copy}{section.1.2}
+\BOOKMARK [2][-]{subsection.1.2.3}{Xen and KVM}{section.1.2}
+\BOOKMARK [1][-]{section.1.3}{Memory Migration}{chapter.1}
+\BOOKMARK [2][-]{subsection.1.3.1}{Optimized Precopy Live Migration for Memory Intensive Applications}{section.1.3}
+\BOOKMARK [2][-]{subsection.1.3.2}{Dynamic Self-Ballooning}{section.1.3}
+\BOOKMARK [2][-]{subsection.1.3.3}{Hierarchical Copy Algorithms for Xen Live Migration}{section.1.3}
+\BOOKMARK [2][-]{subsection.1.3.4}{Dynamic Page Transfer Recording and Compression}{section.1.3}
+\BOOKMARK [1][-]{section.1.4}{Conclusion}{chapter.1}

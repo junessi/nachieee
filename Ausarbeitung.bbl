@@ -1,0 +1,63 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{LQY{\etalchar{+}}10}
+
+\bibitem[BDF{\etalchar{+}}03]{barham2003xen}
+Paul Barham, Boris Dragovic, Keir Fraser, Steven Hand, Tim Harris, Alex Ho,
+  Rolf Neugebauer, Ian Pratt, and Andrew Warfield.
+\newblock Xen and the art of virtualization.
+\newblock {\em ACM SIGOPS Operating Systems Review}, 37(5):164--177, 2003.
+
+\bibitem[CFH{\etalchar{+}}05]{clark2005live}
+Christopher Clark, Keir Fraser, Steven Hand, Jacob~Gorm Hansen, Eric Jul,
+  Christian Limpach, Ian Pratt, and Andrew Warfield.
+\newblock Live migration of virtual machines.
+\newblock In {\em Proceedings of the 2nd conference on Symposium on Networked
+  Systems Design \& Implementation-Volume 2}, pages 273--286. USENIX
+  Association, 2005.
+
+\bibitem[Dre]{ulrich2007memory}
+Ulrich Drepper.
+\newblock Memory part 2: Cpu caches.
+\newblock \url{http://lwn.net/Articles/252125/}.
+\newblock 2007.
+
+\bibitem[Hab]{irfan2008virtualization}
+Irfan Habib.
+\newblock Virtualization with kvm.
+\newblock \url{http://dl.acm.org/citation.cfm?id=1344217}.
+\newblock 2008.
+
+\bibitem[HDG09]{hines2009post}
+Michael~R Hines, Umesh Deshpande, and Kartik Gopalan.
+\newblock Post-copy live migration of virtual machines.
+\newblock {\em ACM SIGOPS operating systems review}, 43(3):14--26, 2009.
+
+\bibitem[HG07]{hines2007memx}
+Michael~R Hines and Kartik Gopalan.
+\newblock Memx: supporting large memory workloads in xen virtual machines.
+\newblock In {\em Proceedings of the 2nd international workshop on
+  Virtualization technology in distributed computing}, page~2. ACM, 2007.
+
+\bibitem[IHIR11]{ibrahim2011optimized}
+Khaled~Z Ibrahim, Steven Hofmeyr, Costin Iancu, and Eric Roman.
+\newblock Optimized pre-copy live migration for memory intensive applications.
+\newblock In {\em Proceedings of 2011 International Conference for High
+  Performance Computing, Networking, Storage and Analysis}, page~40. ACM, 2011.
+
+\bibitem[LQY{\etalchar{+}}10]{liu2010hierarchical}
+Zhaobin Liu, Wenyu Qu, Tao Yan, Haitao Li, and Keqiu Li.
+\newblock Hierarchical copy algorithm for xen live migration.
+\newblock In {\em Cyber-Enabled Distributed Computing and Knowledge Discovery
+  (CyberC), 2010 International Conference on}, pages 361--364. IEEE, 2010.
+
+\bibitem[run]{run2014wiki}
+run-length encoding.
+\newblock \url{http://en.wikipedia.org/wiki/Run-length_encoding}.
+\newblock Accessed: 2014-06-02.
+
+\bibitem[xen]{xen2014wiki}
+Xen - wikipedia.
+\newblock \url{http://en.wikipedia.org/wiki/Xen}.
+\newblock Accessed: 2014-06-02.
+
+\end{thebibliography}

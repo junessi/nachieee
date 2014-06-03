@@ -1,0 +1,72 @@
+\relax 
+\ifx\hyper@anchor\@undefined
+\global \let \oldcontentsline\contentsline
+\gdef \contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global \let \oldnewlabel\newlabel
+\gdef \newlabel#1#2{\newlabelxx{#1}#2}
+\gdef \newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\let \contentsline\oldcontentsline
+\let \newlabel\oldnewlabel}
+\else
+\global \let \hyper@last\relax 
+\fi
+
+\citation{mainpaper}
+\citation{clark2005live}
+\@writefile{toc}{\contentsline {title}{Analysis of live virtual machine migration algorithms used in KVM and Xen}{1}{chapter.1}}
+\@writefile{toc}{\authcount {1}}
+\@writefile{toc}{\contentsline {author}{Junlin Huang}{1}{chapter.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1.1}}
+\citation{clark2005live}
+\citation{clark2005live}
+\citation{clark2005live}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Background}{2}{section.1.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Operating System Live Migration}{2}{subsection.1.2.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Live Migration Stages\relax }}{3}{figure.caption.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Pre-copy and Post-copy}{4}{subsection.1.2.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Timeline for Pre-copy vs. Post-copy\relax }}{4}{figure.caption.3}}
+\citation{barham2003xen}
+\citation{irfan2008virtualization}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Xen and KVM}{5}{subsection.1.2.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Memory Migration}{5}{section.1.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Optimized Precopy Live Migration for Memory Intensive Applications}{5}{subsection.1.3.1}}
+\citation{ibrahim2011optimized}
+\citation{ibrahim2011optimized}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces A typical VM migration plot for the downtime vs. the duration of live migrationA typical VM migration plot for the downtime vs. the duration of live migration. \relax }}{6}{figure.caption.4}}
+\citation{hines2009post}
+\citation{hines2009post}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces a) modified pages are stable for a prolonged period of time; b) application activity drops below a certain threshold; and c) the migration activity involves high retransmission of pages. \relax }}{7}{figure.caption.5}}
+\citation{hines2007memx}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Dynamic Self-Ballooning}{8}{subsection.1.3.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Pseudo-Paging : Pages are swapped out to a pseudo-paging device within the source VM\IeC {\textquoteright }s memory by exchanging MFN identifiers. Domain 0 at the source maps the swapped pages to its memory with the help of the hypervisor. Prepaging then takes over after downtime. \relax }}{9}{figure.caption.6}}
+\citation{xen2014wiki}
+\citation{liu2010hierarchical}
+\citation{liu2010hierarchical}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Hierarchical Copy Algorithms for Xen Live Migration}{10}{subsection.1.3.3}}
+\citation{liu2010hierarchical}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces (a)\relax }}{11}{figure.caption.7}}
+\citation{run2014wiki}
+\citation{ulrich2007memory}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces (b)\relax }}{12}{figure.caption.8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Dynamic Page Transfer Recording and Compression}{12}{subsection.1.3.4}}
+\bibstyle{alpha}
+\bibdata{literatur}
+\bibcite{barham2003xen}{BDF{$^{+}$}03}
+\bibcite{clark2005live}{CFH{$^{+}$}05}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:a}{{8a}{13}{\relax \relax }{figure.caption.9}{}}
+\newlabel{sub@fig:a}{{a}{13}{\relax \relax }{figure.caption.9}{}}
+\newlabel{fig:b}{{8b}{13}{\relax \relax }{figure.caption.9}{}}
+\newlabel{sub@fig:b}{{b}{13}{\relax \relax }{figure.caption.9}{}}
+\newlabel{fig:c}{{8c}{13}{\relax \relax }{figure.caption.9}{}}
+\newlabel{sub@fig:c}{{c}{13}{\relax \relax }{figure.caption.9}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces \textbf  {Vanilla}: the standar algorithms in KVM. \textbf  {XBRLE}: a algorithms in which only XOR binary run length encoding is implemented. \textbf  {PRIOR}: the approach drescbed above. \relax }}{13}{figure.caption.9}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Conclusion}{13}{section.1.4}}
+\bibcite{ulrich2007memory}{Dre}
+\bibcite{irfan2008virtualization}{Hab}
+\bibcite{hines2009post}{HDG09}
+\bibcite{hines2007memx}{HG07}
+\bibcite{ibrahim2011optimized}{IHIR11}
+\bibcite{liu2010hierarchical}{LQY{$^{+}$}10}
+\bibcite{run2014wiki}{run}
+\bibcite{xen2014wiki}{xen}
